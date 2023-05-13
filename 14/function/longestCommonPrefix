@@ -1,0 +1,12 @@
+package functionss
+
+import (
+	"fmt"
+)
+
+func LongestCommonPrefix(strs []string) string {
+	for i := range strs {
+		fmt.Println(strs[i])
+	}
+	return "max"
+}
